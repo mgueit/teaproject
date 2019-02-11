@@ -1,0 +1,213 @@
+
+
+
+/* USUAL STYLES */
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h2{
+  text-align: center;
+}
+
+
+
+
+.text-type{
+  text-align: center;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.image-type{
+  height: 200px;
+  width: 300px;
+  background-size: contain;
+}
+/*HEADER*/
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  padding-top: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+/*NAV*/
+
+header nav{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav span{
+  padding-left: 30px;
+}
+
+nav span a {
+color: seashell;
+text-decoration: underline;
+}
+
+/*CONTENT*/
+
+.content{
+  display: flex;
+  flex-direction: column;
+
+  z-index: 1;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 70px;
+  justify-content: space-around;
+}
+
+/* PART 1 MISSION */
+.mission{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+
+}
+
+.titre-mission{
+  text-align: center;
+  background-color: black;
+  align-items: flex-start;
+}
+
+/* PART 2 TEA OF MONTH */
+
+.tea-of-month{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.tea-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+
+.tea-type{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left: 25px;
+  margin-right: 25px;
+  /*width: 1000px;*/
+
+}
+
+  /*width: 1000px;*/
+
+
+
+
+.fall.image-type{
+  background-image: url(../images/img-berryblitz.jpg);
+  }
+.spiced.image-type{
+  background-image: url(../images/img-spiced-rum.jpg);
+  }
+.donut.image-type{
+  background-image: url(../images/img-donut.jpg);
+  }
+.myrtle.image-type{
+  background-image: url(../images/img-myrtle-ave.jpg);
+  }
+  .bedford.image-type{
+    background-image: url(../images/img-bedford-bizarre.jpg);
+    }
+
+/* PART 3 LOCATIONS */
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+}
+
+.title-locations h2{
+  margin: 0;
+  text-align: center;
+}
+.location{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.address{
+
+  width: 300px;
+  /*height: 300px;*/
+  margin: 15px 0 20px 20px;
+  background-color: black;
+  opacity: 1;
+
+}
+.text-address{
+display: block;
+text-align: center;
+padding-bottom: 20px;
+
+}
+/* PART 5 FOOTER */
+footer{
+  display: block;
+  text-align: center;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
